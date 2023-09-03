@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Rowdies:wght@700&display=swap");
+body {
+  display: flex;
+  justify-content: center;
+  font-family: "Rowdies", cursive;
+  font-size: 20px;
+}
+
+.wrapper {
+  display: flex;
+  width: 50%;
+  justify-self: center;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding: 3%;
+  background-color: #F55536;
+  border: 5px solid #444545;
+  border-radius: 10px;
+}
+
+.wrapper--header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #B5FFE9;
+  width: 100%;
+  border: 3px solid #339989;
+  border-radius: 10px;
+  margin-bottom: 1%;
+}
+
+.wrapper--rules {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #B5FFE9;
+  width: 100%;
+  border: 3px solid #339989;
+  border-radius: 10px;
+  margin-bottom: 1%;
+}
+.wrapper--rules p {
+  padding: 2%;
+  text-align: justify;
+}
+
+.wrapper--btn {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.wrapper--btn .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #B5FFE9;
+  width: 30%;
+  border: 3px solid #339989;
+  border-radius: 10px;
+  margin-bottom: 1%;
+  align-items: center;
+}
+.wrapper--btn .btn p {
+  font-size: 100px;
+  margin: 0;
+}
+
+.wrapper--reset {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #B5FFE9;
+  width: 100%;
+  border: 3px solid #339989;
+  border-radius: 10px;
+  margin-bottom: 1%;
+  margin-bottom: 0;
+  padding: 2% 0 2% 0;
+}
+.wrapper--reset a {
+  text-decoration: none;
+  color: black;
+}
+
+.wrapper--score {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.playerScore, .computerScore {
+  display: flex;
+}
+
+.wrapper--result {
+  display: flex;
+  font-size: 1.2rem;
+}
+.btn p span{
+  font-size: 12vw;
+}
+@media screen and (max-device-width: 700px){
+  .wrapper{
+    width: 100%;
+  }
+  .btn p span{
+    font-size: 22vw;
+  }
+}
+/*# sourceMappingURL=style.css.map */
